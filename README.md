@@ -1,5 +1,9 @@
 # 🌐 OmniLink: Universal Inter-Agent Communication Bus & Skills Protocol
 
+<p align="center">
+  <img src="assets/banner.jpg" alt="OmniLink Universal Agent Bus Banner" width="100%" />
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](https://www.python.org/downloads/)
 [![Architecture: Local-First](https://img.shields.io/badge/Architecture-Local--First-orange.svg)](#)
