@@ -11,6 +11,7 @@ from ..adapters.base import BaseAgentAdapter
 from ..adapters.deepseek import DeepSeekAdapter
 from ..adapters.gemini import GeminiAdapter
 from ..adapters.ollama import OllamaAdapter
+from ..adapters.qwen import QwenAdapter
 
 class AgentBus:
     def __init__(self, memory: Optional[SharedMemory] = None):
@@ -27,6 +28,10 @@ class AgentBus:
             pass
         try:
             self.register_adapter(GeminiAdapter())
+        except Exception:
+            pass
+        try:
+            self.register_adapter(QwenAdapter())
         except Exception:
             pass
         try:
